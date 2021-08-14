@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/twashke/silky-suds-soapery/static/js/main.4843d2c7.chunk.js",
+    "main.js.map": "/twashke/silky-suds-soapery/static/js/main.4843d2c7.chunk.js.map",
+    "runtime-main.js": "/twashke/silky-suds-soapery/static/js/runtime-main.722d6cd2.js",
+    "runtime-main.js.map": "/twashke/silky-suds-soapery/static/js/runtime-main.722d6cd2.js.map",
+    "static/css/2.818011ed.chunk.css": "/twashke/silky-suds-soapery/static/css/2.818011ed.chunk.css",
+    "static/js/2.e72c29d5.chunk.js": "/twashke/silky-suds-soapery/static/js/2.e72c29d5.chunk.js",
+    "static/js/2.e72c29d5.chunk.js.map": "/twashke/silky-suds-soapery/static/js/2.e72c29d5.chunk.js.map",
+    "index.html": "/twashke/silky-suds-soapery/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/twashke/silky-suds-soapery/static/css/2.818011ed.chunk.css.map",
+    "static/js/2.e72c29d5.chunk.js.LICENSE.txt": "/twashke/silky-suds-soapery/static/js/2.e72c29d5.chunk.js.LICENSE.txt",
+    "static/media/logo.b362ade1.jpg": "/twashke/silky-suds-soapery/static/media/logo.b362ade1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.722d6cd2.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.e72c29d5.chunk.js",
+    "static/js/main.4843d2c7.chunk.js"
+  ]
+}
