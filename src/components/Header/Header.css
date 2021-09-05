@@ -1,0 +1,17 @@
+/* Header Text Style */
+.headerText {
+  font-family: Lobster, cursive;
+  font-size: 3rem;
+  color: black;
+}
+/* Header Background */
+.headerBackground {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(107, 197, 162),
+    rgb(36, 131, 209),
+    rgb(212, 128, 238)
+  );
+  padding: 1rem;
+  text-align: center;
+}

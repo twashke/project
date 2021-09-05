@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import NavTabs from "./NavTabs";
-import Header from "./Header";
-import Footer from "./Footer";
-import Home from "./pages/Home";
-import Collection from "./pages/Collection";
-import Member from "./pages/Member";
-import Contact from "./pages/Contact";
-import Cart from "./pages/Cart";
+import NavTabs from "./NavTabs/NavTabs";
+import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
+import Home from "../pages/Home/Home";
+import Collection from "../pages/Collection/Collection";
+import Monthly from "../pages/Monthly/Monthly";
+import Member from "../pages/Member/Member";
+import Contact from "../pages/Contact/Contact";
+import Cart from "../pages/Cart/Cart";
 
 export default function SoaperyContainer() {
     const [currentPage, setCurrentPage] = useState("Home");
@@ -14,6 +15,9 @@ export default function SoaperyContainer() {
     const renderPage = () => {
         if (currentPage === "Home") {
             return <Home/>;
+        } 
+        if (currentPage === "Monthly Collection") {
+            return <Monthly/>;
         } 
         if (currentPage === "Collection") {
             return <Collection/>;
@@ -38,9 +42,6 @@ export default function SoaperyContainer() {
 
             {renderPage()}
             <Footer />
-                <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-                </style>
         </div>
     );
 }

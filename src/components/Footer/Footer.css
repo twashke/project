@@ -1,0 +1,10 @@
+/* Footer Background */
+.footerBackground {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(107, 197, 162),
+    rgb(36, 131, 209),
+    rgb(212, 128, 238)
+  );
+  padding: 0.75rem;
+}
