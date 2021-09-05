@@ -11,7 +11,7 @@ const twitter = <FontAwesomeIcon icon={faTwitter} size="2x"/>;
 
 export default function Footer() {
     return (
-        <div className="text-center text-black footerBackground">
+        <div className="text-center text-black footerBackground footerPosition sticky">
     <div className="container">
         <div className="d-flex justify-content-evenly align-items-center">
             <a className="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/" title="Connect with me on Facebook!" target="_blank"  rel="noreferrer" role="button">{facebook}</a>

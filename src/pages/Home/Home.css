@@ -1,0 +1,11 @@
+/* Carousel Style */
+.soapCarousel {
+  height: 450px;
+  width: 450px;
+}
+/* Backgorund */
+.carouselBackground {
+  background-color: black;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
